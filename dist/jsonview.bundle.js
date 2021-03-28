@@ -225,6 +225,8 @@ var JsonView = (function (exports) {
   exports.renderJSON = renderJSON;
   exports.traverseTree = traverseTree;
 
+  Object.defineProperty(exports, '__esModule', { value: true });
+
   return exports;
 
 }({}));
